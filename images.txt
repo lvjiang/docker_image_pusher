@@ -1,3 +1,6 @@
-python:3.6.8
-python:3.8.5
-python:3.8.13
+--platform=linux/arm64 python:3.6.8
+--platform=linux/amd64 python:3.6.8
+--platform=linux/arm64 python:3.8.5
+--platform=linux/arm64 python:3.8.5
+--platform=linux/arm64 python:3.12.3
+--platform=linux/amd64 python:3.12.3 
