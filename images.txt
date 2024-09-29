@@ -3,4 +3,5 @@
 --platform=linux/arm64 python:3.8.5
 --platform=linux/arm64 python:3.8.5
 --platform=linux/arm64 python:3.12.3
---platform=linux/amd64 python:3.12.3 
+--platform=linux/amd64 python:3.12.3
+centos:centos7.9.2009
