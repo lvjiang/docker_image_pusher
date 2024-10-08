@@ -5,3 +5,4 @@
 --platform=linux/arm64 python:3.12.3
 --platform=linux/amd64 python:3.12.3
 centos:centos7.9.2009
+elasticsearch:7.4.2
