@@ -6,3 +6,6 @@
 --platform=linux/amd64 python:3.12.3
 centos:centos7.9.2009
 elasticsearch:7.4.2
+elasticsearch:7.6.2
+kibana:7.6.2
+logstash:7.6.2
