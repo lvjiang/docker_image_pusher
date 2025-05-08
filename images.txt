@@ -9,3 +9,8 @@ elasticsearch:7.4.2
 elasticsearch:7.6.2
 kibana:7.6.2
 logstash:7.6.2
+gvenzl/oracle-xe:11.2.0.2-slim
+gvenzl/oracle-xe:11.2.0.2-full
+gvenzl/oracle-xe:18.4.0-slim
+gvenzl/oracle-xe:18.4.0-full
+
