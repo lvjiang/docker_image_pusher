@@ -24,3 +24,15 @@ mongo:4.2.8
 mongo:4.4.1
 redis:6.0.9
 mcr.microsoft.com/mssql/rhel/server:2019-gdr3-rhel-7.9
+
+# 国产数据
+## 达梦 x86
+cesresearch/damengdb:V7.1.5
+onlyoffice/damengdb:8.1.2
+
+# 南大通用
+## 老掉牙的
+shihd/gbase8a:1.0
+## 
+liaosnet/gbase8s:3.3.0_2_amd64
+liaosnet/gbase8s:v8.8_3513x28_csdk_x64
