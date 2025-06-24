@@ -1,43 +1,87 @@
+# 操作系统
+## centos
+centos:centos7.9.2009
+
+
+# 编程语言
+## python
 --platform=linux/arm64 python:3.6.8
 --platform=linux/amd64 python:3.6.8
 --platform=linux/arm64 python:3.8.5
 --platform=linux/arm64 python:3.8.5
 --platform=linux/arm64 python:3.12.3
 --platform=linux/amd64 python:3.12.3
-centos:centos7.9.2009
+
+
+# 中间件
+## elasticsearch
 elasticsearch:7.4.2
 elasticsearch:7.6.2
-kibana:7.6.2
-logstash:7.6.2
+elasticsearch:8.18.2
+elasticsearch:9.0.2
+## redis
+redis:6.0.9
+## memcached
+memcached:1.6.38-bookworm
+
+
+# 数据库
+## Oracle系列
+### oracle-xe
 gvenzl/oracle-xe:11.2.0.2-slim
 gvenzl/oracle-xe:11.2.0.2-full
 gvenzl/oracle-xe:18.4.0-slim
 gvenzl/oracle-xe:18.4.0-full
-ibmcom/db2:11.5.4.0
-ibmcom/db2:11.5.8.0
+### Mysql
 mysql:5.6.44
 mysql:8.0.22
 mysql:8.4.5
+
+## IBM系列 
+### DB2
+ibmcom/db2:11.5.4.0
+ibmcom/db2:11.5.8.0
+### informix
+ibmcom/informix-developer-database:14.10.FC7W1DE
+
+## 微软系列
+### Mssql(SQL Server)
+mcr.microsoft.com/mssql/rhel/server:2019-gdr3-rhel-7.9
+
+## PG
 postgres:13.0
 postgres:17.4
+
+## Mongo
 mongo:4.2.8
 mongo:4.4.1
-redis:6.0.9
-mcr.microsoft.com/mssql/rhel/server:2019-gdr3-rhel-7.9
+
+## Sybase
+datagrip/sybase:15.7
+datagrip/sybase:16.0
 
 # 国产数据
 ## 达梦 x86
 cesresearch/damengdb:V7.1.5
 onlyoffice/damengdb:8.1.2
 
-# 南大通用
-## 老掉牙的
+## 南大通用
+### 老掉牙的
 shihd/gbase8a:1.0
-## 
+### 新版的 
 liaosnet/gbase8s:3.3.0_2_amd64
 liaosnet/gbase8s:v8.8_3513x28_csdk_x64
 
-# 华为
+## 华为
 ## openGauss
 enmotech/opengauss:5.1.0
 enmotech/opengauss:6.0.0
+
+
+# APP应用
+## glassfish
+glassfish:4.1-jdk8
+
+# 其他
+kibana:7.6.2
+logstash:7.6.2
