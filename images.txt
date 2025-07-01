@@ -57,8 +57,9 @@ mongo:4.2.8
 mongo:4.4.1
 
 ## Sybase
-datagrip/sybase:15.7
-datagrip/sybase:16.0
+jaschweder/sybase
+#datagrip/sybase:15.7
+#datagrip/sybase:16.0
 
 # 国产数据
 ## 达梦 x86
