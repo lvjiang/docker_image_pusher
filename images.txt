@@ -1,6 +1,10 @@
 # 操作系统
 ## centos
 centos:centos7.9.2009
+## 
+alpine:3.22.1
+alpine:3.22.7
+alpine:3.17.3
 
 
 # 编程语言
@@ -11,6 +15,9 @@ centos:centos7.9.2009
 --platform=linux/arm64 python:3.8.5
 --platform=linux/arm64 python:3.12.3
 --platform=linux/amd64 python:3.12.3
+## golang
+golang:1.21.13-bookworm
+golang:1.21.13-alpine3.20
 
 
 # 中间件
